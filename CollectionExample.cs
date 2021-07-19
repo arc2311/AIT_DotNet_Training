@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 
-namespace Collection
+namespace ConsoleApp1
 {
     class CollectionExample
     {
@@ -21,14 +21,16 @@ namespace Collection
         //ArrayList arrayList = new ArrayList();
         static void Main(string[] d)
         {
+
+
             try
             {
                 ArrayList arrayList = new ArrayList();
 
                 //implicitly boxing happening
                 arrayList.Add(10);
-                //arrayList.Add("Pritam");
-               //arrayList.Add(true);
+                arrayList.Add("Archana");
+                arrayList.Add(true);
 
 
                 //implicitly converting into object
@@ -47,6 +49,10 @@ namespace Collection
             {
                 Console.WriteLine("finally block will executed ");
             }
+
+
         }
+        // the below method is Iterationg the values from arrayList Using its Interface
+
     }
 }
