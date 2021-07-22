@@ -1,0 +1,19 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>TempDataExample</title>
+</head>
+<body>
+    @{ 
+        var name = TempData["StudObj1"] as string;
+    }
+    <h2>@name</h2>
+</body>
+</html>

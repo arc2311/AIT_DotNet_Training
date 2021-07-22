@@ -1,0 +1,13 @@
+﻿@model List<WebApplication1.Models.Student>
+@{
+    ViewData["Title"] = "SendListObject";
+}
+
+<h2>SendListObject</h2>
+@foreach (var obj in Model)
+{
+    <h2>@obj.Name</h2>
+    <h2>@obj.Age</h2>
+    <h2>@obj.Gender</h2>
+
+}

@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ViewDataExample</title>
+</head>
+<body>
+    @{
+        var sobj = ViewData["StudObj"] as Student;
+    }
+    <h2>@sobj.Name</h2>
+    <h2>@sobj.Age</h2>
+    <h2>@sobj.Gender</h2>
+
+</body>
+</html>
